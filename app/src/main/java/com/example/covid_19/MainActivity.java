@@ -73,12 +73,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onGetAllWorldStat(WorldStat worldStats) {
-        txtCase.setText(worldStats.getTotal_cases());
-        txtRecovered.setText(worldStats.getTotal_recovered());
-        txtTodayCasesColor.setText(worldStats.getNew_cases());
-        txtDeaths.setText(worldStats.getTotal_deaths());
-        txtTodayDeathsColor.setText(worldStats.getNew_deaths());
-        txtCriticalColor.setText(worldStats.getSerious_critical());
+        txtCase.setText(worldStats.getTotal_cases() + " tổng ca nhiễm");
+        txtRecovered.setText(worldStats.getTotal_recovered()  + " ca hồi phục");
+        txtTodayCasesColor.setText(worldStats.getNew_cases() + " ca mới nhiễm");
+        txtDeaths.setText(worldStats.getTotal_deaths() + " tổng ca tử vong");
+        txtTodayDeathsColor.setText(worldStats.getNew_deaths()+ " tử vong hôm này");
+        txtCriticalColor.setText(worldStats.getSerious_critical() + " ca nghiêm trọng");
 
         setData(ReplaceAllStringToInt(worldStats.getTotal_cases()),
                 ReplaceAllStringToInt(worldStats.getNew_cases()),

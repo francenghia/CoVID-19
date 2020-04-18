@@ -38,7 +38,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="0"
                     android:textColor="@color/CasesColor"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -60,7 +60,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="0"
                     android:textColor="@color/RecoveredColor"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -82,7 +82,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="0"
                     android:textColor="@color/TodayCasesColor"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
         </LinearLayout>
@@ -111,7 +111,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="0"
                     android:textColor="@color/DeathsColor"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -133,7 +133,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="0"
                     android:textColor="@color/TodayDeathsColor"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -155,7 +155,7 @@
                     android:layout_marginLeft="30dp"
                     android:text="0"
                     android:textColor="@color/CriticalColor"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -176,7 +176,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/chart1"
         android:gravity="center"
-        android:text="Chart" />
+        android:text="Biểu đồ ca nhiễm trên toàn thế giới" />
 
 
 </RelativeLayout>
